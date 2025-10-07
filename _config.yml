@@ -1,0 +1,20 @@
+# Site settings
+title: OH&M Salvage Co.
+email: 
+description: > 
+  OH&M Salvage Co. Website
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+twitter_username:
+github_username:
+
+# Build settings
+markdown: kramdown
+
+# Exclude from processing
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - README.md
