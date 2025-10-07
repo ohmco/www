@@ -1,0 +1,223 @@
+/* OHM Salvage Co. Custom Styles */
+
+/* Color Scheme Variables */
+:root {
+    --ohm-beige: #f3ecd7;
+    --ohm-navy: #232c37;
+    --ohm-gold: #c1a062;
+}
+
+/* Global Background */
+body {
+    background-color: var(--ohm-beige);
+}
+
+/* Header Overrides */
+header {
+    background-color: var(--ohm-beige) !important;
+    background-image: none !important;
+    color: var(--ohm-navy) !important;
+    min-height: 100vh;
+    position: relative;
+    padding: 0;
+}
+
+/* OHM Logo in Corner */
+.ohm-logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: var(--ohm-navy);
+    z-index: 100;
+    letter-spacing: 2px;
+}
+
+/* Header Content */
+header .header-content {
+    position: relative;
+    text-align: center;
+    padding: 150px 15px 100px;
+    width: 100%;
+}
+
+header .header-content-inner {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* Main Headline */
+header .header-content-inner h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    text-transform: uppercase;
+    color: var(--ohm-navy);
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+}
+
+/* Subtitle */
+header .header-content-inner .subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--ohm-navy);
+    margin-bottom: 40px;
+    opacity: 0.8;
+    text-transform: none;
+    letter-spacing: 1px;
+}
+
+/* Hero Illustration */
+.hero-illustration {
+    max-width: 700px;
+    width: 100%;
+    margin: 50px auto;
+    display: block;
+}
+
+/* Custom Button */
+.btn-ohm {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 18px 45px;
+    background-color: var(--ohm-navy);
+    color: var(--ohm-beige);
+    border: 3px solid var(--ohm-navy);
+    border-radius: 50px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-top: 30px;
+}
+
+.btn-ohm:hover,
+.btn-ohm:focus {
+    background-color: var(--ohm-gold);
+    border-color: var(--ohm-gold);
+    color: var(--ohm-navy);
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(35, 44, 55, 0.2);
+}
+
+/* Horizontal Rule Override */
+header hr {
+    border-color: var(--ohm-gold);
+    border-width: 3px;
+    max-width: 80px;
+    margin: 30px auto;
+}
+
+/* Typography Updates */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .ohm-logo {
+        font-size: 28px;
+        top: 20px;
+        left: 20px;
+    }
+    
+    header .header-content {
+        padding: 120px 15px 80px;
+    }
+    
+    header .header-content-inner h1 {
+        font-size: 38px;
+        letter-spacing: 2px;
+    }
+    
+    header .header-content-inner .subtitle {
+        font-size: 16px;
+    }
+    
+    .hero-illustration {
+        max-width: 100%;
+        margin: 30px auto;
+    }
+    
+    .btn-ohm {
+        font-size: 14px;
+        padding: 15px 35px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ohm-logo {
+        font-size: 24px;
+    }
+    
+    header .header-content-inner h1 {
+        font-size: 32px;
+        letter-spacing: 1px;
+    }
+    
+    header .header-content-inner .subtitle {
+        font-size: 14px;
+    }
+}
+
+/* Navigation Updates */
+.navbar-default {
+    background-color: var(--ohm-beige);
+    border-color: rgba(35, 44, 55, 0.1);
+}
+
+.navbar-default .navbar-brand {
+    color: var(--ohm-navy);
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: var(--ohm-gold);
+}
+
+.navbar-default .nav > li > a {
+    color: var(--ohm-navy);
+}
+
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus {
+    color: var(--ohm-gold);
+}
+
+.navbar-default.affix {
+    background-color: var(--ohm-beige);
+    border-color: rgba(35, 44, 55, 0.2);
+}
+
+/* Section Background Updates */
+section {
+    background-color: var(--ohm-beige);
+}
+
+.bg-primary {
+    background-color: var(--ohm-navy) !important;
+}
+
+.text-primary {
+    color: var(--ohm-gold) !important;
+}
+
+/* Link Color Updates */
+a {
+    color: var(--ohm-gold);
+}
+
+a:hover,
+a:focus {
+    color: var(--ohm-navy);
+}
