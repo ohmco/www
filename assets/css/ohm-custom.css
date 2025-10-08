@@ -78,10 +78,9 @@ header .header-content-inner .subtitle {
     display: block;
     margin: 40px auto 0 auto;
     width: 100%;
-    max-width: 700px;
+    max-width: 1400px;
     height: auto;
-    max-height: 350px;   /* new: cap height for square SVG */
-    object-fit: contain; /* new: ensure full SVG is visible */
+    object-fit: contain;
 }
 
 /* Custom Button */
