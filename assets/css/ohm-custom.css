@@ -39,7 +39,7 @@ header {
 header .header-content {
     position: relative;
     text-align: center;
-    padding: 150px 15px 100px;
+    padding: 30px 15px 60px;
     width: 100%;
 }
 
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     header .header-content {
-        padding: 120px 15px 80px;
+        padding: 20px 15px 40px;
     }
     
     header .header-content-inner h1 {
